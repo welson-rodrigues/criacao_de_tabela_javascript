@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: silver;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: blueviolet;
+}
+
+tr:nth-child(even) {
+    background-color: blueviolet;
+}
+
+form {
+    background-color: blueviolet;
+    padding: 30px;
+    justify-content: flex-start;
+    border: 2px solid black;
+}
+
+form>input {
+    width: 200px;
+    /* margin-bottom: 10px; */
+    height: 30px;
+    border: 2px solid black;
+    background-color: silver;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
